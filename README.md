@@ -21,7 +21,8 @@ This project is a Node.js challenge that demonstrates a **Hexagonal Architecture
 
 ## Project Structure
 
-```
+
+```bash
 project/
 ├── docker-compose.yml         # Docker Compose configuration (includes PostgreSQL)
 ├── Dockerfile                 # Dockerfile for the Node.js application
@@ -187,4 +188,3 @@ The following endpoints are available:
 
 - **Coverage Exclusions:**  
   Files within `application/ports` can be excluded from coverage via `coveragePathIgnorePatterns` in the Jest configuration.
-```
