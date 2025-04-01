@@ -1,6 +1,3 @@
-Below is the full content for a `README.md` file. You can copy the text from the code block below and save it as `README.md` in your project folder. This file is ready for you to download by copying and pasting it into a new file.
-
-```markdown
 # Sooft Challenge
 
 This project is a Node.js challenge that demonstrates a **Hexagonal Architecture** using Express, PostgreSQL, Babel, Jest for testing, ESLint for linting, and Docker for containerization. The project includes use cases, DTOs for input validation, repository interfaces with concrete PostgreSQL implementations, and a set of RESTful endpoints.
@@ -22,7 +19,7 @@ This project is a Node.js challenge that demonstrates a **Hexagonal Architecture
 ## Project Structure
 
 
-```bash
+```
 project/
 ├── docker-compose.yml         # Docker Compose configuration (includes PostgreSQL)
 ├── Dockerfile                 # Dockerfile for the Node.js application
