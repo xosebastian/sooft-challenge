@@ -113,7 +113,7 @@ The server will run on the port specified in your environment variables (default
 
 To run the application with Docker and PostgreSQL:
 
-1. Ensure your `seed.sql` file is in the same directory as your `docker-compose.yml` and contains the necessary SQL statements to initialize your database.
+1. Ensure your `db.sql` file is in the same directory as your `docker-compose.yml` and contains the necessary SQL statements to initialize your database.
 
 2. Start the containers:
 
